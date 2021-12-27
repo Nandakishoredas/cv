@@ -25,22 +25,16 @@
       </tr>
     </table>
     <hr>
-    <table cellspacing="5">
-      <tr>
-        <td>
-          <p><label>Enter your name: <input type="text" name="" size=""></label></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p> <label>Enter your e-mail:<input type="mail" name="" value=""> </label> <br> <button type="button" name="button">Submit</button> </p>
-        </td>
-      </tr>
-      <tr>
-        <td> <label> Message: <br> <textarea name="name" rows="5" cols="30"></textarea> </label> <br> <button type="button" name="button">Submit</button>
-         </td>
-      </tr>
-    </table>
+        <form action="mailto:balmontn@gmail.com" method="post" enctype="text/plain">
+    <label>Your name:</label>
+    <input type="text" name="yourName" value=""><br>
+    <label>Your E-mail:</label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <input type="Submit" name="">
+    </form>
+
 </body>
 
 </html>
